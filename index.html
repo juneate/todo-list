@@ -2,14 +2,31 @@
 <html lang="en">
   <head>
     <meta charset="utf-8">
-    <title>FED To-Do List</title>
+    <title>Review Todo</title>
     <meta name="description" content="Building a simple to-do list">
     <meta name="author" content="Rocco Panacci">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="css/reset.css">
+    <link href="https://fonts.googleapis.com/css?family=PT+Serif:400,400i,700,700i|Ubuntu:700" rel="stylesheet">
     <link rel="stylesheet" href="css/main.css?v=1.0">
   </head>
   <body>
+
+    <!-- Come up with a better name for this -->
+    <h1 class="main-heading">Review Todo</h1>
+
+    <main class="content">
+      <form class="add-task">
+        <input type="text" name="task" class="component inpt" value="" placeholder="Add a task...">
+        <button type="button" class="component btn" name="add">Add Task</button>
+      </form>
+
+      <ol class="task-list">
+        <li class="task">Feed the Dog</li>
+        <li class="task complete">Finish Todo list</li>
+        <li class="task">Pickup the drycleaning</li>
+      </ol>
+    </main>
 
 
 

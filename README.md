@@ -21,3 +21,5 @@ What other features could we use/create? Here are a few ideas:
 - Drag and drop items to prioritize?
 - Give them a status colour or progress indicator
 - Store the list items (local storage? database? etc)
+- Categorize our list
+- Error handling/styling?
